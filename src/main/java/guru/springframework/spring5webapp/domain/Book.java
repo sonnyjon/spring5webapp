@@ -13,7 +13,6 @@ public class Book {
 
     private String title;
     private String isbn;
-
     @ManyToMany
     @JoinTable(
             name = "author_book",
